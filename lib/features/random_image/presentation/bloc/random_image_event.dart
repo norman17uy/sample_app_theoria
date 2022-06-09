@@ -6,3 +6,5 @@ abstract class RandomImageEvent extends Equatable {
   @override
   List<Object> get props => [];
 }
+
+class FetchRandomImage extends RandomImageEvent {}
